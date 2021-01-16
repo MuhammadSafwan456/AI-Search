@@ -125,7 +125,7 @@ class login(object):
         _translate = QtCore.QCoreApplication.translate
         print(self.username_input.text())
         print(self.password_input.text())
-        if self.username_input.text()=="admin" and self.password_input.text()=="admin321":
+        if self.username_input.text()=="ADMIN" and self.password_input.text()=="ADMIN":
             self.main_window = QtWidgets.QMainWindow()
             self.ui = view_window()
             self.ui.setupUi(self.main_window)
